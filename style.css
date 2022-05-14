@@ -1,0 +1,305 @@
+body{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(Images/1920x1080.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover 100%;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+.contact{
+    background-color: rgba(0, 0, 0, 0.692);
+    border-radius: 3px;
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 700px;
+    padding-bottom: 30px;
+    
+}
+
+.formtypes{
+    padding: 0px;
+    margin-top: 30px;
+    margin: auto;
+}
+
+#survey-form{
+padding: 0%;
+}
+
+.formtypes label{
+    color: white;
+    display: flex;
+    padding: 0px;
+    margin: auto;
+}
+
+.formtypesWithOptions{
+    margin-top: 30px;
+    padding-left: 35px;
+
+}
+
+.formtypesWithOptions label{
+    padding-right: 10px;
+   
+
+}
+
+.formtypesToCheckbox{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0px;
+    justify-content: left;
+    margin-top: 30px;
+    padding-left: 35px;
+
+}
+
+.formtypesToCheckbox label{
+    padding-right: 10px;
+
+}
+
+
+.formtypesNumber{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    padding-left: 29px;
+    color: rgb(255, 255, 255);
+}
+
+.formtypesNumber label{
+    padding-right: 100px;
+
+}
+
+.formtypesToRadio{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    padding-left: 35px;
+}
+
+.formtypesToRadio p{
+    padding: 0%;
+    margin: 0px;
+    padding-right: 10px;
+
+}
+
+
+.allForms{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0%;
+    margin: auto;
+
+}
+
+.dugme{ 
+    text-align: center;
+}
+
+
+
+
+button{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    margin-top: 0px;
+    background-color: rgba(189, 58, 58, 0.74);
+    border: solid 1px rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0px 1px 10px rgb(0, 0, 0);  
+    margin-top: 20px;
+    font-size: larger;
+
+}
+
+button:hover{
+    background-color: rgba(168, 50, 50, 0.582);
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 0px 1px 10px rgb(0, 0, 0);  
+
+}
+
+button:active{
+    background-color: rgba(97, 4, 4, 0.466);
+    border: solid 1px rgb(0, 0, 0);
+}
+
+input[type=email]{
+    -webkit-appearance: none;
+    width: 300px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: none;
+    border-bottom: rgb(223, 114, 114) solid 1px;
+    font-size: larger;
+    
+}
+
+
+input[type=email]:focus{
+    border: none;
+    outline: none;
+}
+
+input[type=text]{
+    -webkit-appearance: none;
+    width: 300px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: none;
+    border-bottom: rgb(223, 114, 114) solid 1px;
+    font-size: larger;
+
+}
+
+
+
+input[type=text]:focus{
+    border: none;
+    outline: none;
+    
+}
+
+input[type=message]{
+    -webkit-appearance: none;
+    width: 300px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: larger;
+
+}
+
+
+.msg input[type=text] {
+    -webkit-appearance: none;
+    width: 300px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    justify-content: center;
+    font-size: larger;
+
+}
+
+.msg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+textarea{
+    -webkit-appearance: none;
+    width: 300px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    justify-content: center;
+    border: none;
+    border-bottom: rgb(223, 114, 114) solid 1px;
+    margin-bottom: -23px;
+}
+
+textarea:focus{
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+/**************** UNDERLINING ************************/
+p.underlinewoosh{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+p.underlinewoosh:before{
+    display: block;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: -20px;
+    left: 0;
+    background-color: rgb(143, 23, 2);
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+p.underlinewoosh:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
+
+
+
+p.underlinewooshContact{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+p.underlinewooshContact:before{
+    display: block;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3.5px;
+    bottom: 0px;
+    left: 0;
+    background-color: rgb(143, 23, 2);
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+p.underlinewooshContact:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
+
+
+
+  @media only screen and (max-width: 768px){
+
+    body{
+        padding: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin: auto;
+    }
+
+
+  }

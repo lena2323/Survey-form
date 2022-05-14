@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>coffeeHelps</title>
+</head>
+<body>
+    
+    <div class="contact">
+        <h1 id="title"> Tell us about your experience with coffeeHelps!</h1>
+        <p id="description">
+            Is our new IDE coffeeHelps your favorite IDE yet?
+        </p>
+        <div class="allForms">
+            <form class="formtypes" id="survey-form">
+                <p class="underlinewooshContact">
+                <label  class="formmargin" id="name-label">Name</label>
+                <input type="text" name="name" placeholder="Full name">
+                </p>
+            </form>
+
+            <form class="formtypes">
+                <p class="underlinewooshContact">
+                <label  class="formmargin" id="email-label">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email address" required>
+                </p>
+            </form>
+
+            <form class="formtypesNumber">
+                <label id="number-label">What is your age?</label>
+                <input type="number" name="age" id="number" placeholder="Tell us your age"
+                min="10"
+                max="103">
+        
+            </form>
+
+            <form class="formtypes" >
+                <p class="underlinewooshContact">
+                <label>Favorite IDE</label>
+                <input type="text" name="subject" placeholder="What's your favorite IDE?">
+                </p>
+            </form>
+
+            <form class="formtypesWithOptions" id="dropdown">
+
+                <label>Do you use coffeeHelps IDE?</label>
+                <select name="yesnoUseCoffeeHelps" >
+                    <option value="Yes">Yes!</option>
+                    <option value="No">No!</option>
+                </select>
+
+            </form> 
+
+            
+            <form class="formtypesWithOptions">
+                <label>Would you recommend it to friends?</label>
+                <select name="yesnoRecommend" >
+                    <option value="Yes">Yes!</option>
+                    <option value="No">No!</option>
+                </select>
+            </form>
+
+            <form class="formtypesToCheckbox">
+                <input type="checkbox" id="spagete" name="spagete">
+                <label for="spagete">Is coffeeHelps better than VSC?</label>
+            </form>
+
+    
+           
+    
+            <form class="formtypesToRadio">
+                <p>coffeeHelps or VSC?</p>
+                <input type="radio" id="coffeeHelps" name="coffeeHelps-VSC" value="coffeeHelps">
+                <label for="coffeeHelps" class="formmargin">coffeeHelps!</label>
+                <input type="radio" id="VSC" name="coffeeHelps-VSC" value="VSC">
+                <label for="VSC" class="formmargin" >VSC!</label>
+            </form>
+
+            <form class="formtypes">
+                <p class="underlinewoosh" > <label  class="formmargin"></label>
+                <textarea name="message" placeholder="Tell us how to improve!"></textarea></p>
+                </form>
+
+            <form class="dugme">
+                <button id="submit" type="submit" value="Submit" >Submit!</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
