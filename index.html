@@ -9,17 +9,19 @@
 </head>
 <body>
     
-    <div class="contact">
+    <form class="contact" id="survey-form">
         <h1 id="title"> Tell us about your experience with coffeeHelps!</h1>
         <p id="description">
             Is our new IDE coffeeHelps your favorite IDE yet?
         </p>
-        <div class="allForms">
-            <form class="formtypes" id="survey-form">
-                <p class="underlinewooshContact">
-                <label  class="formmargin" id="name-label">Name</label>
-                <input type="text" name="name" placeholder="Full name">
-                </p>
+        <div class="allForms" >
+            <form class="formtypes">
+                <div class="makeItWorkName">
+                    <p class="underlinewooshContact">
+                    <label id="name-label">Name</label>
+                    <input type="text" name="name" placeholder="Full name" id="name" required>
+                    </p>
+                </div>
             </form>
 
             <form class="formtypes">
@@ -44,10 +46,10 @@
                 </p>
             </form>
 
-            <form class="formtypesWithOptions" id="dropdown">
+            <form class="formtypesWithOptions">
 
                 <label>Do you use coffeeHelps IDE?</label>
-                <select name="yesnoUseCoffeeHelps" >
+                <select name="yesnoUseCoffeeHelps"  id="dropdown" >
                     <option value="Yes">Yes!</option>
                     <option value="No">No!</option>
                 </select>
@@ -64,8 +66,16 @@
             </form>
 
             <form class="formtypesToCheckbox">
-                <input type="checkbox" id="spagete" name="spagete">
-                <label for="spagete">Is coffeeHelps better than VSC?</label>
+                <input type="checkbox" id="coffeeHelps" name="coffeeHelps" value="coffeeHelps">
+                <label for="coffeeHelps">coffeeHelps</label>
+                <input type="checkbox" id="CODE:: BLOCKS
+                " name="CODE:: BLOCKS
+                " value="CODE:: BLOCKS
+                ">
+                <label for="CODE:: BLOCKS
+                ">CODE:: BLOCKS
+            </label>
+
             </form>
 
     
@@ -88,7 +98,7 @@
                 <button id="submit" type="submit" value="Submit" >Submit!</button>
             </form>
         </div>
-    </div>
+    </form>
 
 </body>
 </html>

@@ -36,6 +36,16 @@ body{
     margin: auto;
 }
 
+.makeItWorkName label{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+}
+
+.makeItWorkName{
+    padding-left: 30px;
+}
+
 #survey-form{
 padding: 0%;
 }
@@ -45,6 +55,17 @@ padding: 0%;
     display: flex;
     padding: 0px;
     margin: auto;
+}
+
+#name-label{
+    color: white;
+    padding-right: 10px;
+
+}
+
+
+#formtypesNAME p{
+border: 10px solid red;
 }
 
 .formtypesWithOptions{
@@ -109,7 +130,7 @@ padding: 0%;
     text-align: left;
     padding: 0%;
     margin: auto;
-
+    margin-bottom: 30px;
 }
 
 .dugme{ 
