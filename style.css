@@ -354,5 +354,25 @@ p.underlinewooshContact:hover:before {
         margin: auto;
     }
 
+    .image{
+        display: none;
+    }
+
+    
+    .contact form{
+        padding-right: 0px;
+        
+    
+    }
+
+    .makeItWorkName{
+       padding: 0%;
+    
+    }
+
+    #description{
+        margin: auto;
+    }
 
   }
+
